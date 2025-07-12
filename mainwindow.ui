@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+font-size:30px;
+color:black;
+font-weight: bold;
+}</string>
+      </property>
+      <property name="text">
+       <string>  Welcome to Train Ticket Booking System</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="minimumSize">
+           <size>
+            <width>241</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    background-color: #3FA7D6;  /* Primary Button Color */
+    color: black;  /* Text Color */
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight:bold;
+}
+
+QPushButton:hover {
+    background-color: #2D89B5;  /* Slightly darker blue for hover effect */
+}
+
+QPushButton:pressed {
+    background-color: #1F6E96;  /* Even darker blue for pressed state */
+}
+
+QPushButton:disabled {
+    background-color: #4A4F55;  /* Disabled Button Color */
+    color: #7A828A;  /* Dimmed Text Color */
+    border: 2px solid #383838;
+}
+
+QPushButton[danger=&quot;true&quot;] {
+    background-color: #D9534F;  /* Danger Button Color */
+    color: #FFFAF0;
+}
+
+QPushButton[danger=&quot;true&quot;]:hover {
+    background-color: #B5423C;
+}
+
+QPushButton[secondary=&quot;true&quot;] {
+    background-color: #556B8D;  /* Secondary Button */
+    color: #FFFAF0;
+}
+
+QPushButton[secondary=&quot;true&quot;]:hover {
+    background-color: #485A7A;
+}</string>
+          </property>
+          <property name="text">
+           <string>Book Tickets</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="minimumSize">
+           <size>
+            <width>241</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    background-color: #3FA7D6;  /* Primary Button Color */
+    color: black;  /* Text Color */
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight:bold;
+}
+
+QPushButton:hover {
+    background-color: #2D89B5;  /* Slightly darker blue for hover effect */
+}
+
+QPushButton:pressed {
+    background-color: #1F6E96;  /* Even darker blue for pressed state */
+}
+
+QPushButton:disabled {
+    background-color: #4A4F55;  /* Disabled Button Color */
+    color: #7A828A;  /* Dimmed Text Color */
+    border: 2px solid #383838;
+}
+
+QPushButton[danger=&quot;true&quot;] {
+    background-color: #D9534F;  /* Danger Button Color */
+    color: #FFFAF0;
+}
+
+QPushButton[danger=&quot;true&quot;]:hover {
+    background-color: #B5423C;
+}
+
+QPushButton[secondary=&quot;true&quot;] {
+    background-color: #556B8D;  /* Secondary Button */
+    color: #FFFAF0;
+}
+
+QPushButton[secondary=&quot;true&quot;]:hover {
+    background-color: #485A7A;
+}</string>
+          </property>
+          <property name="text">
+           <string>View Your Bookings</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="minimumSize">
+           <size>
+            <width>241</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    background-color: #3FA7D6;  /* Primary Button Color */
+    color: black;  /* Text Color */
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight:bold;
+}
+
+QPushButton:hover {
+    background-color: #2D89B5;  /* Slightly darker blue for hover effect */
+}
+
+QPushButton:pressed {
+    background-color: #1F6E96;  /* Even darker blue for pressed state */
+}
+
+QPushButton:disabled {
+    background-color: #4A4F55;  /* Disabled Button Color */
+    color: #7A828A;  /* Dimmed Text Color */
+    border: 2px solid #383838;
+}
+
+QPushButton[danger=&quot;true&quot;] {
+    background-color: #D9534F;  /* Danger Button Color */
+    color: #FFFAF0;
+}
+
+QPushButton[danger=&quot;true&quot;]:hover {
+    background-color: #B5423C;
+}
+
+QPushButton[secondary=&quot;true&quot;] {
+    background-color: #556B8D;  /* Secondary Button */
+    color: #FFFAF0;
+}
+
+QPushButton[secondary=&quot;true&quot;]:hover {
+    background-color: #485A7A;
+}</string>
+          </property>
+          <property name="text">
+           <string>Modify Bookings</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="logoutButton">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>41</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+    background-color: #3FA7D6;  /* Primary Button Color */
+    color: black;  /* Text Color */
+    border: 2px solid #252525;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-weight:bold;
+}
+
+QPushButton:hover {
+    background-color: #2D89B5;  /* Slightly darker blue for hover effect */
+}
+
+QPushButton:pressed {
+    background-color: #1F6E96;  /* Even darker blue for pressed state */
+}
+
+QPushButton:disabled {
+    background-color: #4A4F55;  /* Disabled Button Color */
+    color: #7A828A;  /* Dimmed Text Color */
+    border: 2px solid #383838;
+}
+
+QPushButton[danger=&quot;true&quot;] {
+    background-color: #D9534F;  /* Danger Button Color */
+    color: #FFFAF0;
+}
+
+QPushButton[danger=&quot;true&quot;]:hover {
+    background-color: #B5423C;
+}
+
+QPushButton[secondary=&quot;true&quot;] {
+    background-color: #556B8D;  /* Secondary Button */
+    color: #FFFAF0;
+}
+
+QPushButton[secondary=&quot;true&quot;]:hover {
+    background-color: #485A7A;
+}</string>
+          </property>
+          <property name="text">
+           <string>Logout</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Policy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>25</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

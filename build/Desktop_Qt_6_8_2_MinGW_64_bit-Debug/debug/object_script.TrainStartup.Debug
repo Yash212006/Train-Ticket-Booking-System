@@ -1,0 +1,17 @@
+debug/bookticketsecond.o
+debug/clickablelabel.o
+debug/database.o
+debug/main.o
+debug/mainwindow.o
+debug/modifybookings.o
+debug/startup.o
+debug/bookticket.o
+debug/viewbookings.o
+debug/qrc_Resouces.o
+debug/moc_bookticketsecond.o
+debug/moc_clickablelabel.o
+debug/moc_mainwindow.o
+debug/moc_modifybookings.o
+debug/moc_startup.o
+debug/moc_bookticket.o
+debug/moc_viewbookings.o
